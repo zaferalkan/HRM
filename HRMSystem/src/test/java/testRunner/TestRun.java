@@ -17,7 +17,9 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-		features = ".//Features/AddEmployee.feature",
+		//features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
+		features = "Features",
+
 		glue = "stepDefinitions",
 		dryRun = false,
 		//tags = {"@Notes" },
