@@ -32,15 +32,20 @@ import org.sikuli.script.Screen;
 import com.sun.tools.internal.xjc.Driver;
 
 import Utils.CommonMethods;
+import Utils.WaitHelper;
 import junit.framework.Assert;
 
 public class AddEmployeePage extends CommonMethods {
 
 	public WebDriver driver;
+	public WaitHelper waithelp;
+
 
 	public AddEmployeePage(WebDriver rdriver) {
 		driver = rdriver;
 		PageFactory.initElements(rdriver, this);
+		waithelp = new WaitHelper(driver);
+
 	}
 
 	@FindBy(id = "menu_pim_viewPimModule")
@@ -205,12 +210,13 @@ public class AddEmployeePage extends CommonMethods {
 	}
 
 	public void password(String e) {
+		waithelp.WaitForElement(enterPassWord, 10);
 		enterPassWord.sendKeys(e);
 	}
 
 	public void confirmPass(String e) throws InterruptedException {
+		waithelp.WaitForElement(reEnterPassWord, 10);
 		reEnterPassWord.sendKeys(e);
-	//	Thread.sleep(3000);
 	}
 
 	public void statusSelection(int f) throws InterruptedException {
@@ -236,7 +242,7 @@ public class AddEmployeePage extends CommonMethods {
 	}
 
 	public void genderselection2() {
-		genderRdb(genders, "2");
+		genderRdb(genders, "1");
 	}
 
 	public void genderSelection(String gender) {

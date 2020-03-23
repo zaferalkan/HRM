@@ -1,0 +1,98 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRun
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 4, Skipped: 8, Time elapsed: 61.719 sec <<< FAILURE!
+Then Enter employee details and click save(Scenario: Add Employee)  Time elapsed: 0.014 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NORALOGY', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 497e9b1ee56c710f05441ba53a0bcdda
+*** Element info: {Using=id, value=personal_cmbNation}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+	at Utils.CommonMethods.ddlSelectionByText(CommonMethods.java:79)
+	at pageObjects.AddEmployeePage.nationalitySelections(AddEmployeePage.java:252)
+	at stepDefinitions.steps.enter_employee_details_and_click_save(steps.java:111)
+	at ?.Then Enter employee details and click save(./Features/AddEmployee.feature:9)
+
+Scenario: Add Employee  Time elapsed: 0.017 sec  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NORALOGY', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 497e9b1ee56c710f05441ba53a0bcdda
+*** Element info: {Using=id, value=personal_cmbNation}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy16.getTagName(Unknown Source)
+	at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
+	at Utils.CommonMethods.ddlSelectionByText(CommonMethods.java:79)
+	at pageObjects.AddEmployeePage.nationalitySelections(AddEmployeePage.java:252)
+	at stepDefinitions.steps.enter_employee_details_and_click_save(steps.java:111)
+	at ?.Then Enter employee details and click save(./Features/AddEmployee.feature:9)
+
+Then Enter employee name and click search(Scenario: Search Customer By Name)  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (882b9e29e891c6ca76935a9c0475e245)] -> css selector: #dialogDeleteBtn] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NORALOGY', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 882b9e29e891c6ca76935a9c0475e245
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Utils.WaitHelper.WaitForElement(WaitHelper.java:18)
+	at pageObjects.SearchCustomer.searchResultControl(SearchCustomer.java:85)
+	at stepDefinitions.steps.enter_employee_name_and_click_search(steps.java:146)
+	at ?.Then Enter employee name and click search(./Features/AddEmployee.feature:22)
+
+Scenario: Search Customer By Name  Time elapsed: 0.003 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (882b9e29e891c6ca76935a9c0475e245)] -> css selector: #dialogDeleteBtn] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NORALOGY', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 882b9e29e891c6ca76935a9c0475e245
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Utils.WaitHelper.WaitForElement(WaitHelper.java:18)
+	at pageObjects.SearchCustomer.searchResultControl(SearchCustomer.java:85)
+	at stepDefinitions.steps.enter_employee_name_and_click_search(steps.java:146)
+	at ?.Then Enter employee name and click search(./Features/AddEmployee.feature:22)
+

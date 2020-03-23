@@ -68,7 +68,7 @@ formatter.match({
   "location": "steps.user_Launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 5074268300,
+  "duration": 6075784000,
   "status": "passed"
 });
 formatter.match({
@@ -81,7 +81,7 @@ formatter.match({
   "location": "steps.user_opens_URL(String)"
 });
 formatter.result({
-  "duration": 1852135300,
+  "duration": 1733966700,
   "status": "passed"
 });
 formatter.match({
@@ -98,42 +98,42 @@ formatter.match({
   "location": "steps.user_enters_UserName_as_and_Password_as(String,String)"
 });
 formatter.result({
-  "duration": 277431900,
+  "duration": 454111800,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 4838398800,
+  "duration": 5275401000,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.click_on_Add_Employee()"
 });
 formatter.result({
-  "duration": 1145427200,
+  "duration": 1438686100,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.enter_employee_details_and_click_save()"
 });
 formatter.result({
-  "duration": 34012248000,
+  "duration": 38155126200,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.click_on_Welcome()"
 });
 formatter.result({
-  "duration": 158045700,
+  "duration": 224597100,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.user_click_on_Log_out_link()"
 });
 formatter.result({
-  "duration": 683514000,
+  "duration": 756834000,
   "status": "passed"
 });
 formatter.match({
@@ -146,14 +146,14 @@ formatter.match({
   "location": "steps.logout_Title_should_be(String)"
 });
 formatter.result({
-  "duration": 94200,
+  "duration": 105000,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.close_browser()"
 });
 formatter.result({
-  "duration": 2188682400,
+  "duration": 2212687100,
   "status": "passed"
 });
 formatter.scenario({
@@ -218,7 +218,7 @@ formatter.match({
   "location": "steps.user_Launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 3533877700,
+  "duration": 4157532600,
   "status": "passed"
 });
 formatter.match({
@@ -231,7 +231,7 @@ formatter.match({
   "location": "steps.user_opens_URL(String)"
 });
 formatter.result({
-  "duration": 1858221000,
+  "duration": 1621039100,
   "status": "passed"
 });
 formatter.match({
@@ -248,42 +248,42 @@ formatter.match({
   "location": "steps.user_enters_UserName_as_and_Password_as(String,String)"
 });
 formatter.result({
-  "duration": 226758200,
+  "duration": 431283000,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 4933471200,
+  "duration": 5445338500,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.click_on_Employee_List()"
 });
 formatter.result({
-  "duration": 1349991800,
+  "duration": 1563387500,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.enter_employee_name_and_click_search()"
 });
 formatter.result({
-  "duration": 11210217000,
+  "duration": 6768966800,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.click_on_Welcome_search()"
 });
 formatter.result({
-  "duration": 114501800,
+  "duration": 481603900,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.user_click_on_Log_out_link()"
 });
 formatter.result({
-  "duration": 759823300,
+  "duration": 1062715200,
   "status": "passed"
 });
 formatter.match({
@@ -296,14 +296,14 @@ formatter.match({
   "location": "steps.logout_Title_should_be(String)"
 });
 formatter.result({
-  "duration": 394000,
+  "duration": 119600,
   "status": "passed"
 });
 formatter.match({
   "location": "steps.close_browser()"
 });
 formatter.result({
-  "duration": 2177934500,
+  "duration": 2182302500,
   "status": "passed"
 });
 });

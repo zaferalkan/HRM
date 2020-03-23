@@ -1,7 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -9,14 +7,18 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Utils.CommonMethods;
+import Utils.WaitHelper;
 
 public class SearchCustomer extends CommonMethods {
 
 	public WebDriver driver;
+	public WaitHelper waithelp;
 
 	public SearchCustomer(WebDriver rdriver) {
 		driver = rdriver;
 		PageFactory.initElements(rdriver, this);
+		waithelp = new WaitHelper(driver);
+
 	}
 
 	@FindBy(id = "menu_pim_viewPimModule")
@@ -58,8 +60,7 @@ public class SearchCustomer extends CommonMethods {
 	}
 
 	public void enterEmpName(String text) throws InterruptedException {
-		Thread.sleep(2000);
-
+		waithelp.WaitForElement(empName, 10);
 		empName.click();
 
 		empName.sendKeys(text);
@@ -78,11 +79,11 @@ public class SearchCustomer extends CommonMethods {
 	public void searchResultControl(String searchText) throws InterruptedException {
 
 		searchResultControl(searchResult, searchText);
-		Thread.sleep(2000);
-
+		waithelp.WaitForElement(check, 10);
 		check.click();
+		waithelp.WaitForElement(btnDelete, 10);
 		btnDelete.click();
-		Thread.sleep(2000);
+		waithelp.WaitForElement(diologDelete, 10);
 		diologDelete.click();
 		searchResultControl(norecord, "No Records Found");
 	}
