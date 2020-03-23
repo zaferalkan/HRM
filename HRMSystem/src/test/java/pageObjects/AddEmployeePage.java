@@ -1,12 +1,6 @@
 package pageObjects;
 
 import java.awt.AWTException;
-import org.sikuli.script.Button;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Location;
-import org.sikuli.script.Match;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
@@ -25,9 +19,6 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import org.sikuli.script.Button;
-import org.sikuli.script.Location;
-import org.sikuli.script.Screen;
 
 import com.sun.tools.internal.xjc.Driver;
 
@@ -222,7 +213,7 @@ public class AddEmployeePage extends CommonMethods {
 	public void statusSelection(int f) throws InterruptedException {
 		Select s = new Select(selectStatus);
 		s.selectByIndex(f);
-	//	Thread.sleep(3000);
+		Thread.sleep(3000);
 	}
 
 	public void clickToSave() {
@@ -266,21 +257,10 @@ public class AddEmployeePage extends CommonMethods {
 		mouseOverAction(Pim, AddEmp, driver);
 	}
 
-	public void choichefile() throws InterruptedException, FindFailed {
-//		Point fileB=fileBtn.getLocation();
-//		int x=fileB.x;
-//		int y=fileB.y;
-//		
-		//reen screen = new Screen();
-		//screen.findText("No file chosen").click();
-		
-		// Find where you want to move the mouse and set a location
-		Location wheelPoint = new Location(100,500);
-		wheelPoint.click();
 		
 		
 		
 		
 		
-	}
+	
 }

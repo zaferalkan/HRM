@@ -96,9 +96,9 @@ public class steps extends BaseClass{
 		ae = new AddEmployeePage(driver);
 		ae.firstName("pascal");
 		ae.lastName("nouma");
-		ae.employeeId("241902");
+		ae.employeeId("9999");
 		ae.createLoginDetails();
-		ae.userName("pascal");
+		ae.userName("pascal3");
 		ae.password("Abc@2019asd");
 		ae.confirmPass("Abc@2019asd");
 		ae.statusSelection(1);
@@ -143,6 +143,7 @@ public class steps extends BaseClass{
 		sc.enterEmpName(a);
 		Thread.sleep(2500);
 		sc.searchButtonClick();
+		sc.searchcustomerbyid("9999");
 		sc.searchResultControl(a);
 		
 	}

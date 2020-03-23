@@ -8,6 +8,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -95,20 +96,35 @@ public class CommonMethods {
 		js.executeScript("cursorBy(" + x + "," + y + ")");
 
 	}
-	
-	public void mouseOverAction(WebElement element1,WebElement element2,WebDriver driver) {
+
+	public void mouseOverAction(WebElement element1, WebElement element2, WebDriver driver) {
 		Actions action = new Actions(driver);
 		action.moveToElement(element1).moveToElement(element2).click().build().perform();
 	}
-	
+
 	public void searchResultControl(WebElement e, String expected) {
-		String a=e.getText();
+		String a = e.getText();
 		System.out.println(a);
-		boolean ok=a.contains(expected);
-		if(ok){
+		boolean ok = a.contains(expected);
+		if (ok) {
 			System.out.println("search result okey");
-		}else {
+		} else {
 			System.out.println("result error");
 		}
+	}
+
+	public boolean searchtablebyId(WebDriver driver, int numOfRows, String id) {
+		boolean flag = false;
+		for (int i = 1; i <= numOfRows; i++) {
+			String actualId = driver.findElement(By.xpath("//table[@id='resultTable']/tbody/tr[" + i + "]/td[2]")).getText();
+			System.out.println(actualId+""+numOfRows);
+			if (id.equalsIgnoreCase(actualId)) {
+				WebElement click=driver.findElement(By.xpath("//table[@id='resultTable']/tbody/tr[" + i + "]/td[1]"));
+				click.click();
+				flag = true;
+			}
+
+		}
+		return flag;
 	}
 }

@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -8,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import Utils.CommonMethods;
 import Utils.WaitHelper;
+import junit.framework.Assert;
 
 public class SearchCustomer extends CommonMethods {
 
@@ -47,9 +50,17 @@ public class SearchCustomer extends CommonMethods {
 	@CacheLookup
 	WebElement norecord;
 
-	@FindBy(css = "tbody")
+	@FindBy(css = "#resultTable")
 	@CacheLookup
-	WebElement searchResult;
+	WebElement searchTable;
+	
+	@FindBy(xpath = "//table[@id='resultTable']/tbody/tr")
+	@CacheLookup
+	List<WebElement> tableRows;
+	
+	@FindBy(xpath = "//table[@id='resultTable']/tbody/tr/td")
+	@CacheLookup
+	List<WebElement> tableColumns;
 
 	@FindBy(css = "#dialogDeleteBtn")
 	@CacheLookup
@@ -60,11 +71,13 @@ public class SearchCustomer extends CommonMethods {
 	}
 
 	public void enterEmpName(String text) throws InterruptedException {
-		waithelp.WaitForElement(empName, 10);
+		waithelp.WaitForElement(empName, 20000);
+		Thread.sleep(2000);
+
 		empName.click();
 
 		empName.sendKeys(text);
-		// Thread.sleep(2500);
+		Thread.sleep(2500);
 		// driver.findElement(By.id("empsearch_employee_status")).click();
 	}
 
@@ -76,15 +89,23 @@ public class SearchCustomer extends CommonMethods {
 		welcomeMenu.click();
 	}
 
+	public void searchcustomerbyid(String id) {
+		int rowSize=tableRows.size();
+		boolean searchStatus = searchtablebyId(driver, rowSize, id);
+		Assert.assertEquals(true, searchStatus);
+	}
+
 	public void searchResultControl(String searchText) throws InterruptedException {
 
-		searchResultControl(searchResult, searchText);
-		waithelp.WaitForElement(check, 10);
-		check.click();
-		waithelp.WaitForElement(btnDelete, 10);
+		//searchResultControl(searchResult, searchText);
+		//searchcustomerbyid("9999");
+		//waithelp.WaitForElement(check, 20000);
+		Thread.sleep(2000);
+		//check.click();
+		waithelp.WaitForElement(btnDelete, 20000);
 		btnDelete.click();
-		waithelp.WaitForElement(diologDelete, 10);
+		waithelp.WaitForElement(diologDelete, 20000);
 		diologDelete.click();
-		searchResultControl(norecord, "No Records Found");
+		//searchResultControl(norecord, "No Records Found");
 	}
 }
