@@ -97,15 +97,10 @@ public class SearchCustomer extends CommonMethods {
 
 	public void searchResultControl(String searchText) throws InterruptedException {
 
-		//searchResultControl(searchResult, searchText);
-		//searchcustomerbyid("9999");
-		//waithelp.WaitForElement(check, 20000);
 		Thread.sleep(2000);
-		//check.click();
 		waithelp.WaitForElement(btnDelete, 20000);
 		btnDelete.click();
 		waithelp.WaitForElement(diologDelete, 20000);
 		diologDelete.click();
-		//searchResultControl(norecord, "No Records Found");
 	}
 }

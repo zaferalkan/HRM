@@ -98,7 +98,7 @@ public class steps extends BaseClass{
 		ae.lastName("nouma");
 		ae.employeeId("9999");
 		ae.createLoginDetails();
-		ae.userName("pascal3");
+		ae.userName("pascal");
 		ae.password("Abc@2019asd");
 		ae.confirmPass("Abc@2019asd");
 		ae.statusSelection(1);
