@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import java.util.Properties;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +19,7 @@ public class BaseClass {
 	public AddEmployeePage ae;
 	public SearchCustomer sc;
 	public Logger logger;
+	public Properties configProp;
 	
 
 	public static String randomString() {

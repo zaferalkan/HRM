@@ -1,14 +1,16 @@
 package stepDefinitions;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -17,25 +19,47 @@ import pageObjects.LoginPage;
 import pageObjects.MainPage;
 import pageObjects.SearchCustomer;
 
-public class steps extends BaseClass{
+public class steps extends BaseClass {
 
+	@Before
+	public void setup() throws IOException {
+
+		//logger configuration
+		logger = Logger.getLogger("HRM System");
+		PropertyConfigurator.configure("log4j.properties");
+
+		// reading properties file
+		configProp = new Properties();
+		FileInputStream configProfile = new FileInputStream("config.properties");
+		configProp.load(configProfile);
+
+		String br = configProp.getProperty("browser");
+
+		if (br.equals("chrome")) {
+
+			System.setProperty("webdriver.chrome.driver", configProp.getProperty("chromepath"));
+			driver = new ChromeDriver();
+
+		} else if (br.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", configProp.getProperty("firefoxpath"));
+			driver = new FirefoxDriver();
+		}
+
+		logger.info("*****Launching the browser*****");
+
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+
+	}
 
 	@Given("^User Launch Chrome Browser$")
 	public void user_Launch_Chrome_Browser() {
-		
-		logger =Logger.getLogger("HRM System");
-		PropertyConfigurator.configure("log4j.properties");
-		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//Drivers//chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
+
 		lp = new LoginPage(driver);
 	}
 
 	@When("^User opens URL \"([^\"]*)\"$")
 	public void user_opens_URL(String url) throws Throwable {
-		logger.info("*****Launching the browser*****");
 		driver.get(url);
 	}
 
@@ -92,7 +116,6 @@ public class steps extends BaseClass{
 	@Then("^Logout Title should be \"([^\"]*)\"$")
 	public void logout_Title_should_be(String as) throws Throwable {
 
-		
 	}
 
 	@Then("^close browser$")
@@ -108,12 +131,12 @@ public class steps extends BaseClass{
 		logger.info("*****navigate to employee adding page*****");
 
 		ae = new AddEmployeePage(driver);
-		ae.clickAddEmp();	}
+		ae.clickAddEmp();
+	}
 
 	@Then("^Enter employee details and click save$")
 	public void enter_employee_details_and_click_save() throws Throwable {
 		logger.info("*****Employee added and saved to database with credentials*****");
-
 
 		ae = new AddEmployeePage(driver);
 		ae.firstName("pascal");
@@ -128,7 +151,7 @@ public class steps extends BaseClass{
 		Thread.sleep(2000);
 		ae.clickToEdit();
 		Thread.sleep(2000);
-		//ae.genderSelection("male");
+		// ae.genderSelection("male");
 		ae.genderselection2();
 		ae.nationalitySelections();
 		ae.maritalSelections();
@@ -137,8 +160,9 @@ public class steps extends BaseClass{
 		ae.clickToSave1();
 //		ae.clickAtt();
 //		Thread.sleep(3000);
-	//	ae.choichefile();
+		// ae.choichefile();
 	}
+
 	@Then("^Click on Welcome$")
 	public void click_on_Welcome() throws Throwable {
 		logger.info("*****Go back to welcome menu*****");
@@ -146,13 +170,13 @@ public class steps extends BaseClass{
 		mp = new MainPage(driver);
 		ae.clickMenu();
 	}
-	
+
 	@Then("^Click on Welcome search$")
 	public void click_on_Welcome_search() throws Throwable {
 		logger.info("*****welcome menu to searck employee*****");
 
 		mp = new MainPage(driver);
-	    sc.clickMenu();
+		sc.clickMenu();
 	}
 
 	@When("^Click on Employee List$")
@@ -161,21 +185,20 @@ public class steps extends BaseClass{
 
 		sc = new SearchCustomer(driver);
 		sc.clickEmpList();
-		
+
 	}
 
 	@Then("^Enter employee name and click search$")
 	public void enter_employee_name_and_click_search() throws Throwable {
 		logger.info("*****enter employee name to search*****");
 
-	 
-		String a="pascal nouma";
+		String a = "pascal nouma";
 		sc.enterEmpName(a);
 		Thread.sleep(2500);
 		sc.searchButtonClick();
 		sc.searchcustomerbyid("9999");
 		sc.searchResultControl(a);
-		
+
 	}
 
 }

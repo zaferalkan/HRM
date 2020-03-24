@@ -1,10 +1,10 @@
-Utils\WaitHelper.class
 pageObjects\LoginPage.class
 pageObjects\SearchCustomer.class
 testRunner\TestRun.class
-Utils\CommonMethods.class
-Utils\ConfigFileReader.class
 stepDefinitions\BaseClass.class
+utilities\CommonMethods.class
+utilities\WaitHelper.class
 pageObjects\AddEmployeePage.class
+utilities\ConfigFileReader.class
 pageObjects\MainPage.class
 stepDefinitions\steps.class
