@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import pageObjects.AddEmployeePage;
@@ -15,6 +16,7 @@ public class BaseClass {
 	public MainPage mp;
 	public AddEmployeePage ae;
 	public SearchCustomer sc;
+	public Logger logger;
 	
 
 	public static String randomString() {

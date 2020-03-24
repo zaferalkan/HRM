@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 
 		//features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
-		features = "Features/AddEmployee.feature",
+		features = "Features",
 
 		glue = "stepDefinitions",
 		dryRun = false,

@@ -2,6 +2,8 @@ package stepDefinitions;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +22,10 @@ public class steps extends BaseClass{
 
 	@Given("^User Launch Chrome Browser$")
 	public void user_Launch_Chrome_Browser() {
+		
+		logger =Logger.getLogger("HRM System");
+		PropertyConfigurator.configure("log4j.properties");
+		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//Drivers//chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -29,17 +35,21 @@ public class steps extends BaseClass{
 
 	@When("^User opens URL \"([^\"]*)\"$")
 	public void user_opens_URL(String url) throws Throwable {
+		logger.info("*****Launching the browser*****");
 		driver.get(url);
 	}
 
 	@When("^User enters UserName as \"([^\"]*)\" and Password as \"([^\"]*)\"$")
 	public void user_enters_UserName_as_and_Password_as(String username, String password) throws Throwable {
+		logger.info("*****entering credentials*****");
+
 		lp.setUserName(username);
 		lp.setPassword(password);
 	}
 
 	@When("^Click on Login$")
 	public void click_on_Login() throws Throwable {
+		logger.info("*****login process started*****");
 
 		lp.clickLogin();
 		Thread.sleep(3000);
@@ -53,6 +63,8 @@ public class steps extends BaseClass{
 
 	@Then("Home Page Title should be")
 	public void home_Page_Title_should_be(String title) throws Throwable {
+		logger.info("*****welcome menu title verified*****");
+
 		mp = new MainPage(driver);
 		mp.titleVerification();
 
@@ -60,6 +72,8 @@ public class steps extends BaseClass{
 
 	@Then("^Click on Welcome Menu$")
 	public void click_on_Welcome_Menu() throws InterruptedException {
+		logger.info("*****clicked the welcome menu*****");
+
 		mp = new MainPage(driver);
 		mp.clickWelcomeMenu();
 
@@ -67,6 +81,8 @@ public class steps extends BaseClass{
 
 	@When("^User click on Log out link$")
 	public void user_click_on_Log_out_link() throws InterruptedException {
+		logger.info("*****logout process started*****");
+
 		mp = new MainPage(driver);
 		sc = new SearchCustomer(driver);
 		mp.clickLogot();
@@ -81,17 +97,23 @@ public class steps extends BaseClass{
 
 	@Then("^close browser$")
 	public void close_browser() throws InterruptedException {
+		logger.info("*****driver closed*****");
+
 		Thread.sleep(2000);
 		driver.close();
 	}
 
 	@When("^Click on Add Employee$")
 	public void click_on_Add_Employee() throws Throwable {
+		logger.info("*****navigate to employee adding page*****");
+
 		ae = new AddEmployeePage(driver);
 		ae.clickAddEmp();	}
 
 	@Then("^Enter employee details and click save$")
 	public void enter_employee_details_and_click_save() throws Throwable {
+		logger.info("*****Employee added and saved to database with credentials*****");
+
 
 		ae = new AddEmployeePage(driver);
 		ae.firstName("pascal");
@@ -119,18 +141,24 @@ public class steps extends BaseClass{
 	}
 	@Then("^Click on Welcome$")
 	public void click_on_Welcome() throws Throwable {
+		logger.info("*****Go back to welcome menu*****");
+
 		mp = new MainPage(driver);
 		ae.clickMenu();
 	}
 	
 	@Then("^Click on Welcome search$")
 	public void click_on_Welcome_search() throws Throwable {
+		logger.info("*****welcome menu to searck employee*****");
+
 		mp = new MainPage(driver);
 	    sc.clickMenu();
 	}
 
 	@When("^Click on Employee List$")
 	public void click_on_Employee_List() throws Throwable {
+		logger.info("*****go to employee list*****");
+
 		sc = new SearchCustomer(driver);
 		sc.clickEmpList();
 		
@@ -138,6 +166,8 @@ public class steps extends BaseClass{
 
 	@Then("^Enter employee name and click search$")
 	public void enter_employee_name_and_click_search() throws Throwable {
+		logger.info("*****enter employee name to search*****");
+
 	 
 		String a="pascal nouma";
 		sc.enterEmpName(a);
