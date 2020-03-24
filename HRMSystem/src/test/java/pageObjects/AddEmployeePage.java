@@ -22,9 +22,9 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.sun.tools.internal.xjc.Driver;
 
-import Utils.CommonMethods;
-import Utils.WaitHelper;
 import junit.framework.Assert;
+import utilities.CommonMethods;
+import utilities.WaitHelper;
 
 public class AddEmployeePage extends CommonMethods {
 
