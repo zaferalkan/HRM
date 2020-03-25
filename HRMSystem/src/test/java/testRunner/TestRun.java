@@ -18,13 +18,13 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 
 		// features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
-		features = ".//Features/",
+		features = ".//Features/Job.feature",
 
 		glue = "stepDefinitions", 
-		dryRun = false, 
+		dryRun = true, 
 		monochrome = true, 
-		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:" }, 
-		tags = { "@sanity, @regression" }
+		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:" }
+		//tags = { "@sanity, @regression" }
 
 )
 
