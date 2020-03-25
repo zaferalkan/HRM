@@ -17,14 +17,16 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-		// features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
-		features = ".//Features/",
+//		 features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
+//		features = ".//Features/",
+				 features = ".//Features/AddEmployee.feature",
+
 
 		glue = "stepDefinitions", 
 		dryRun = false, 
 		monochrome = true, 
-		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:" }, 
-		tags = { "@sanity, @regression" }
+		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:" }
+		//tags = { "@sanity" }
 
 )
 

@@ -201,4 +201,54 @@ public class steps extends BaseClass {
 
 	}
 
+@Then("^Click on Users Link$")
+public void click_on_Users_Link() throws Throwable {
+
+}
+
+@Then("^Click Add button$")
+public void click_Add_button() throws Throwable {
+
+}
+
+@Then("^Enter Add User details and save$")
+public void enter_Add_User_details_and_save() throws Throwable {
+ 
+}
+
+@When("^Enter Username$")
+public void enter_Username() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+}
+
+@When("^Click on Search Button$")
+public void click_on_Search_Button() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+}
+
+@Then("^Click on search result$")
+public void click_on_search_result() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+}
+
+@Then("^Click on Edit Button$")
+public void click_on_Edit_Button() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+}
+
+@Then("^Check on Change Password$")
+public void check_on_Change_Password() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+}
+
+@Then("^Enter Password and Confirm Password$")
+public void enter_Password_and_Confirm_Password() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+}
+
+@Then("^Save Button$")
+public void save_Button() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+}
+
 }

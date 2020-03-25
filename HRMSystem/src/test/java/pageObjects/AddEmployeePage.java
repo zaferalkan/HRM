@@ -200,13 +200,16 @@ public class AddEmployeePage extends CommonMethods {
 		enterUserName.sendKeys(d);
 	}
 
-	public void password(String e) {
-		waithelp.WaitForElement(enterPassWord, 10);
+	public void password(String e) throws InterruptedException {
+		Thread.sleep(2000);
+		//waithelp.WaitForElement(enterPassWord, 10);
 		enterPassWord.sendKeys(e);
 	}
 
 	public void confirmPass(String e) throws InterruptedException {
-		waithelp.WaitForElement(reEnterPassWord, 10);
+	//	waithelp.WaitForElement(reEnterPassWord, 10);
+		Thread.sleep(2000);
+
 		reEnterPassWord.sendKeys(e);
 	}
 
