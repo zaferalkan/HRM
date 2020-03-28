@@ -1,211 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="49" failures="2" name="testRunner.TestRun" time="0.32" errors="2" skipped="8">
+<testsuite tests="22" failures="0" name="testRunner.TestRun" time="0.01" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin"/>
-    <property name="java.vm.version" value="25.212-b10"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\acar5\git\HRM\HRMSystem"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\HRM1\HRM\HRMSystem"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\HRM1\HRM\HRMSystem"/>
-    <property name="java.runtime.version" value="1.8.0_212-b10"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\endorsed"/>
+    <property name="user.dir" value="C:\Users\acar5\git\HRM\HRMSystem"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\zafer\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\windows\TEMP\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\zafer\OneDrive\Desktop\Eclipse-Workspace-Zafer\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7803691311109545387.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\acar5\Desktop\jmeter\apache-jmeter-5.2.1\apache-jmeter-5.2.1\docs\api\org\apache\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_212\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\zafer\AppData\Local\Android\Sdk\tools\bin;C:\Users\zafer\AppData\Local\Android\Sdk\tools;C:\Users\zafer\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\node_modules\npm\bin;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\zafer\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Users\zafer\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\acar5\Desktop\jmeter\apache-jmeter-5.2.1\apache-jmeter-5.2.1\docs\api\org\apache\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk-13.0.1/bin;C:\Program Files\Java\jdk-13.0.1/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\acar5\AppData\Local\Microsoft\WindowsApps;C:\Users\acar5\.dotnet\tools;."/>
+    <property name="maven.conf" value="C:\Users\acar5\Desktop\jmeter\apache-jmeter-5.2.1\apache-jmeter-5.2.1\docs\api\org\apache\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\zafer"/>
+    <property name="library.jansi.path" value="C:\Users\acar5\Desktop\jmeter\apache-jmeter-5.2.1\apache-jmeter-5.2.1\docs\api\org\apache\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
     <property name="user.timezone" value="America/New_York"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="zafer"/>
-    <property name="java.class.path" value="/C:/Users/zafer/eclipse/java-2019-03/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="LAPTOP-COLDOS8T$"/>
+    <property name="java.class.path" value="C:\Users\acar5\Desktop\jmeter\apache-jmeter-5.2.1\apache-jmeter-5.2.1\docs\api\org\apache\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_212\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
     <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_212"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_212\jre\classes"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\HRM1\HRM\HRMSystem\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\acar5\Desktop\jmeter\apache-jmeter-5.2.1\apache-jmeter-5.2.1\docs\api\org\apache\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
     <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Add Employee" name="Given User Launch Chrome Browser" time="0.004"/>
-  <testcase classname="Scenario: Add Employee" name="When User opens URL &quot;http://166.62.36.207/humanresources/symfony/web/index.php/auth/login&quot;" time="0.001"/>
+  <testcase classname="Scenario: Add Employee" name="Given User Launch Chrome Browser" time="0.003"/>
+  <testcase classname="Scenario: Add Employee" name="When User opens URL &quot;http://166.62.36.207/humanresources/symfony/web/index.php/auth/login&quot;" time="0"/>
   <testcase classname="Scenario: Add Employee" name="And User enters UserName as &quot;Admin&quot; and Password as &quot;Hum@nhrm123&quot;" time="0"/>
   <testcase classname="Scenario: Add Employee" name="And Click on Login" time="0"/>
   <testcase classname="Scenario: Add Employee" name="When Click on Add Employee" time="0"/>
-  <testcase classname="Scenario: Add Employee" name="Then Enter employee details and click save" time="0"/>
+  <testcase classname="Scenario: Add Employee" name="Then Enter employee details and click save" time="0.004"/>
   <testcase classname="Scenario: Add Employee" name="And Click on Welcome" time="0"/>
   <testcase classname="Scenario: Add Employee" name="When User click on Log out link" time="0"/>
   <testcase classname="Scenario: Add Employee" name="Then Logout Title should be &quot;LOGIN Panel&quot;" time="0"/>
   <testcase classname="Scenario: Add Employee" name="And close browser" time="0"/>
   <testcase classname="Scenario: Add Employee" name="Scenario: Add Employee" time="0.001"/>
   <testcase classname="Scenario: Search Customer By Name" name="Given User Launch Chrome Browser" time="0"/>
-  <testcase classname="Scenario: Search Customer By Name" name="When User opens URL &quot;http://166.62.36.207/humanresources/symfony/web/index.php/auth/login&quot;" time="0.001"/>
+  <testcase classname="Scenario: Search Customer By Name" name="When User opens URL &quot;http://166.62.36.207/humanresources/symfony/web/index.php/auth/login&quot;" time="0"/>
   <testcase classname="Scenario: Search Customer By Name" name="And User enters UserName as &quot;Admin&quot; and Password as &quot;Hum@nhrm123&quot;" time="0"/>
   <testcase classname="Scenario: Search Customer By Name" name="And Click on Login" time="0"/>
-  <testcase classname="Scenario: Search Customer By Name" name="When Click on Employee List" time="0.014">
-    <error message="move target out of bounds
-  (Session info: chrome=80.0.3987.149)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NORALOGY&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d06e68ad1886ae711596a65c3c5eef4e" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
-  (Session info: chrome=80.0.3987.149)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NORALOGY&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d06e68ad1886ae711596a65c3c5eef4e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at utilities.CommonMethods.mouseOverAction(CommonMethods.java:102)
-	at pageObjects.SearchCustomer.clickEmpList(SearchCustomer.java:70)
-	at stepDefinitions.steps.click_on_Employee_List(steps.java:163)
-	at ✽.When Click on Employee List(AddEmployee.feature:22)
-</error>
-    <system-out> INFO [main] (steps.java:160)- *****go to employee list*****
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: Search Customer By Name" name="Scenario: Search Customer By Name" time="0.015">
-    <error message="move target out of bounds
-  (Session info: chrome=80.0.3987.149)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NORALOGY&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d06e68ad1886ae711596a65c3c5eef4e" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
-  (Session info: chrome=80.0.3987.149)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;NORALOGY&apos;, ip: &apos;192.168.1.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\zafer\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d06e68ad1886ae711596a65c3c5eef4e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at utilities.CommonMethods.mouseOverAction(CommonMethods.java:102)
-	at pageObjects.SearchCustomer.clickEmpList(SearchCustomer.java:70)
-	at stepDefinitions.steps.click_on_Employee_List(steps.java:163)
-	at ✽.When Click on Employee List(AddEmployee.feature:22)
-</error>
-  </testcase>
-  <testcase classname="Scenario: Search Customer By Name" name="Then Enter employee name and click search" time="0.026">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search Customer By Name" name="And Click on Welcome search" time="0.031">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search Customer By Name" name="When User click on Log out link" time="0.063">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search Customer By Name" name="Then Logout Title should be &quot;LOGIN Panel&quot;" time="0.064">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search Customer By Name" name="And close browser" time="0.065">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Successful login" name="Given User Launch Chrome Browser" time="0"/>
-  <testcase classname="Scenario: Successful login" name="When User opens URL &quot;http://166.62.36.207/humanresources/symfony/web/index.php/auth/login&quot;" time="0"/>
-  <testcase classname="Scenario: Successful login" name="And User enters UserName as &quot;Admin&quot; and Password as &quot;Hum@nhrm123&quot;" time="0"/>
-  <testcase classname="Scenario: Successful login" name="And Click on Login" time="0"/>
-  <testcase classname="Scenario: Successful login" name="Then Click on Welcome Menu" time="0"/>
-  <testcase classname="Scenario: Successful login" name="When User click on Log out link" time="0"/>
-  <testcase classname="Scenario: Successful login" name="Then Logout Title should be &quot;LOGIN Panel&quot;" time="0"/>
-  <testcase classname="Scenario: Successful login" name="And close browser" time="0"/>
-  <testcase classname="Scenario: Successful login" name="Scenario: Successful login" time="0.006"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="Given User Launch Chrome Browser" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="When User opens URL &quot;http://166.62.36.207/humanresources/symfony/web/index.php/auth/login&quot;" time="0.005"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="And User enters UserName as &quot;Admin&quot; and Password as &quot;Hum@nhrm123&quot;" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="And Click on Login" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="Then Click on Welcome Menu" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="When User click on Log out link" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="Then Logout Title should be &quot;LOGIN Panel&quot;" time="0.001"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="And close browser" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm123 |" name="| Admin | Hum@nhrm123 |" time="0.001"/>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="Given User Launch Chrome Browser" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="When User opens URL &quot;http://166.62.36.207/humanresources/symfony/web/index.php/auth/login&quot;" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="And User enters UserName as &quot;Admin&quot; and Password as &quot;Hum@nhrm1231&quot;" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="And Click on Login" time="0"/>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="Then Click on Welcome Menu" time="0.001">
-    <failure message="expected:&lt;...mfony/web/index.php/[auth/validateCredentials]&gt; but was:&lt;...mfony/web/index.php/[dashboard]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...mfony/web/index.php/[auth/validateCredentials]&gt; but was:&lt;...mfony/web/index.php/[dashboard]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at pageObjects.MainPage.clickWelcomeMenu(MainPage.java:37)
-	at stepDefinitions.steps.click_on_Welcome_Menu(steps.java:78)
-	at ✽.Then Click on Welcome Menu(Login.feature:18)
-</failure>
-    <system-out> INFO [main] (steps.java:75)- *****clicked the welcome menu*****
-</system-out>
-  </testcase>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="| Admin | Hum@nhrm1231 |" time="0.001">
-    <failure message="expected:&lt;...mfony/web/index.php/[auth/validateCredentials]&gt; but was:&lt;...mfony/web/index.php/[dashboard]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;...mfony/web/index.php/[auth/validateCredentials]&gt; but was:&lt;...mfony/web/index.php/[dashboard]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:115)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at pageObjects.MainPage.clickWelcomeMenu(MainPage.java:37)
-	at stepDefinitions.steps.click_on_Welcome_Menu(steps.java:78)
-	at ✽.Then Click on Welcome Menu(Login.feature:18)
-</failure>
-  </testcase>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="When User click on Log out link" time="0.006">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="Then Logout Title should be &quot;LOGIN Panel&quot;" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Admin | Hum@nhrm1231 |" name="And close browser" time="0.007">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: Search Customer By Name" name="When Click on Employee List" time="0"/>
+  <testcase classname="Scenario: Search Customer By Name" name="Then Enter employee name and click search" time="0"/>
+  <testcase classname="Scenario: Search Customer By Name" name="And Click on Welcome search" time="0"/>
+  <testcase classname="Scenario: Search Customer By Name" name="When User click on Log out link" time="0"/>
+  <testcase classname="Scenario: Search Customer By Name" name="Then Logout Title should be &quot;LOGIN Panel&quot;" time="0"/>
+  <testcase classname="Scenario: Search Customer By Name" name="And close browser" time="0"/>
+  <testcase classname="Scenario: Search Customer By Name" name="Scenario: Search Customer By Name" time="0.002"/>
 </testsuite>

@@ -15,6 +15,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjects.AddEmployeePage;
+import pageObjects.JobPageObjects;
 import pageObjects.LoginPage;
 import pageObjects.MainPage;
 import pageObjects.SearchCustomer;
@@ -24,7 +25,7 @@ public class steps extends BaseClass {
 	@Before
 	public void setup() throws IOException {
 
-		//logger configuration
+		// logger configuration
 		logger = Logger.getLogger("HRM System");
 		PropertyConfigurator.configure("log4j.properties");
 
@@ -97,19 +98,26 @@ public class steps extends BaseClass {
 	@Then("^Click on Welcome Menu$")
 	public void click_on_Welcome_Menu() throws InterruptedException {
 		logger.info("*****clicked the welcome menu*****");
-
 		mp = new MainPage(driver);
-		mp.clickWelcomeMenu();
+		mp.clickWel();
+//		jpo = new JobPageObjects(driver);
+//		jpo.clickWelcome();
+//		jpo.clickWelcomeES();
+		
 
 	}
 
 	@When("^User click on Log out link$")
 	public void user_click_on_Log_out_link() throws InterruptedException {
 		logger.info("*****logout process started*****");
-
+		//ae = new AddEmployeePage(driver);
 		mp = new MainPage(driver);
-		sc = new SearchCustomer(driver);
+		//sc = new SearchCustomer(driver);
 		mp.clickLogot();
+		//jpo = new JobPageObjects(driver);
+//		jpo.clickLogOut();
+//		jpo.logOutES();
+		// ae.logOutEmpPage();
 
 	}
 
@@ -123,7 +131,7 @@ public class steps extends BaseClass {
 		logger.info("*****driver closed*****");
 
 		Thread.sleep(2000);
-		driver.close();
+		// driver.close();
 	}
 
 	@When("^Click on Add Employee$")
@@ -174,9 +182,9 @@ public class steps extends BaseClass {
 	@Then("^Click on Welcome search$")
 	public void click_on_Welcome_search() throws Throwable {
 		logger.info("*****welcome menu to searck employee*****");
-
 		mp = new MainPage(driver);
 		sc.clickMenu();
+
 	}
 
 	@When("^Click on Employee List$")
@@ -201,4 +209,131 @@ public class steps extends BaseClass {
 
 	}
 
+	@When("^Click on Job Titles$")
+	public void click_on_Job_Titles() throws Throwable {
+		jpo = new JobPageObjects(driver);
+		jpo.clickJobTitles();
+
+	}
+
+	@Then("^Click on Add Button$")
+	public void click_on_Add_Button() throws Throwable {
+		jpo = new JobPageObjects(driver);
+		jpo.clickAddNewJob();
+	}
+
+	@Then("^Enter A New Job Title$")
+	public void enter_A_New_Job_Title() throws Throwable {
+		jpo.typeJobTitle("Bakery Chef");
+	}
+
+	@Then("^Enter Job Description$")
+	public void enter_Job_Description() throws Throwable {
+		jpo.typeJobDescription("Minimum 5 years europian deserts experience");
+
+	}
+
+	@Then("^Enter Benefits into Notes$")
+	public void enter_Benefits_into_Notes() throws Throwable {
+		jpo.typeNote("Full Time, 5 days working day in a week, Free parking, and bonus ");
+
+	}
+
+	@Then("^Click on Save Button$")
+	public void click_on_Save_Button() throws Throwable {
+		jpo = new JobPageObjects(driver);
+		jpo.clickSaveNewJob();
+		Thread.sleep(2000);
+		mp = new MainPage(driver);
+		mp.clickWelcomeMenu();
+		mp.clickLogot();
+
+	}
+
+	// Pay Grade Steps
+
+	@When("^Click on Pay Grades$")
+	public void click_on_Pay_Grades() throws Throwable {
+		jpo = new JobPageObjects(driver);
+		jpo.clickPayGrades();
+
+	}
+
+	@Then("^Click on Add Button to Enter Pay Grade$")
+	public void click_on_Add_Button_to_Enter_Pay_Grade() throws Throwable {
+		jpo.clickAddNewPayGrade();
+
+	}
+
+	@Then("^Enter Pay Grade$")
+	public void enter_Pay_Grade() throws Throwable {
+		jpo.enterPayGradeName("BiWeekly8");
+	}
+
+	@Then("^Click Save Button$")
+	public void click_Save_Button() throws Throwable {
+		jpo.clickSavePayGrade();
+
+	}
+
+	@Then("^Click on Add Button to Enter Assigned Currencies$")
+	public void click_on_Add_Button_to_Enter_Assigned_Currencies() throws Throwable {
+		jpo.clickAddCurrency();
+
+	}
+
+	@Then("^Enter Currency$")
+	public void enter_Currency() throws Throwable {
+		jpo.enterCurrencyName("dollar");
+		Thread.sleep(2000);
+
+	}
+
+	@Then("^Enter Min and Max Salary$")
+	public void enter_Min_and_Max_Salary() throws Throwable {
+		jpo.minCurrency("1000");
+		Thread.sleep(2000);
+		jpo.maxCurrency("1200");
+
+	}
+
+	@Then("^Click Add Button to Save Currency$")
+	public void click_Add_Button_to_Save_Currency() throws Throwable {
+		jpo = new JobPageObjects(driver);
+		jpo.clickSaveCurrency();
+
+	}
+
+	// Employment Status Steps
+
+	@When("^Click on Employment Status$")
+	public void click_on_Employment_Status() throws Throwable {
+		jpo = new JobPageObjects(driver);
+		jpo.clickEmploymentStatus();
+	}
+
+	@Then("^Enter Employment Status Name$")
+	public void enter_Employment_Status_Name() throws Throwable {
+		jpo.enterEmpStatusName("Part-Time Role2");
+
+	}
+
+	@Then("^Click on Save Button to Save Employment Status$")
+	public void click_on_Save_Button_to_Save_Employment_Status() throws Throwable {
+		jpo.clickSaveEmpStatus();
+
+	}
+	
+	// Job Categories Steps
+	
+	@When("^Click on Job Categories$")
+	public void click_on_Job_Categories() throws Throwable {
+		jpo = new JobPageObjects(driver);
+	    jpo.clickJobCategories();
+	}
+
+	@Then("^Enter A New Job Category$")
+	public void enter_A_New_Job_Category() throws Throwable {
+	    jpo.enterJobCatName("Mechanics4");
+	}
 }

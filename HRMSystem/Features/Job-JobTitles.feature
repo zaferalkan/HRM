@@ -1,4 +1,4 @@
-Feature: Job 
+Feature: Job Titles
 
 Background: Login steps for All scenarios 
 	Given User Launch Chrome Browser 
@@ -6,7 +6,7 @@ Background: Login steps for All scenarios
 	And User enters UserName as "Admin" and Password as "Hum@nhrm123" 
 	And Click on Login 
 	
-Scenario: Add A New Job 
+Scenario: Job Titles 
 	When Click on Job Titles 
 	Then Click on Add Button 
 	And Enter A New Job Title 

@@ -1,28 +1,18 @@
 package pageObjects;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.datatransfer.Clipboard;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
+
 import java.util.List;
 
-import org.joda.time.Days;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Point;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
-import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com.sun.tools.internal.xjc.Driver;
 
-import junit.framework.Assert;
 import utilities.CommonMethods;
 import utilities.WaitHelper;
 
@@ -156,6 +146,10 @@ public class AddEmployeePage extends CommonMethods {
 	@FindBy(name = "personal[optGender]")
 	@CacheLookup
 	List<WebElement> genders;
+	
+	@FindBy(xpath = "//a[contains(text(),'Logout')]")
+	@CacheLookup
+	WebElement LogoutLink;
 
 	public void dobEntry() throws InterruptedException {
 		DOB.click();
@@ -200,13 +194,16 @@ public class AddEmployeePage extends CommonMethods {
 		enterUserName.sendKeys(d);
 	}
 
-	public void password(String e) {
-		waithelp.WaitForElement(enterPassWord, 10);
+	public void password(String e) throws InterruptedException {
+		Thread.sleep(2000);
+		//waithelp.WaitForElement(enterPassWord, 10);
 		enterPassWord.sendKeys(e);
 	}
 
 	public void confirmPass(String e) throws InterruptedException {
-		waithelp.WaitForElement(reEnterPassWord, 10);
+	//	waithelp.WaitForElement(reEnterPassWord, 10);
+		Thread.sleep(2000);
+
 		reEnterPassWord.sendKeys(e);
 	}
 
@@ -255,6 +252,11 @@ public class AddEmployeePage extends CommonMethods {
 
 	public void clickAddEmp() {
 		mouseOverAction(Pim, AddEmp, driver);
+	}
+	
+	public void logOutEmpPage() {
+		LogoutLink.click();
+		
 	}
 
 		
