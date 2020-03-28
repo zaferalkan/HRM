@@ -10,7 +10,7 @@ Scenario: Successful login
 	Then Logout Title should be "LOGIN Panel" 
 	And close browser 
 	
-@resgreesion 
+ 
 Scenario Outline: Data Driven login 
 	Given User Launch Chrome Browser 
 	When User opens URL "http://166.62.36.207/humanresources/symfony/web/index.php/auth/login" 
