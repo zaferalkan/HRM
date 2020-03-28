@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream:HRMSystem/Features/Job.feature
-Feature: Job 
-=======
 Feature: Job Titles 
->>>>>>> Stashed changes:HRMSystem/Features/Job-WorkShifts.feature
 
 Background: Login steps for All scenarios 
 	Given User Launch Chrome Browser 
@@ -10,7 +6,6 @@ Background: Login steps for All scenarios
 	And User enters UserName as "Admin" and Password as "Hum@nhrm123" 
 	And Click on Login 
 	
-<<<<<<< Updated upstream:HRMSystem/Features/Job.feature
 Scenario: Add A New Job 
 	When Click on Job Titles 
 	Then Click on Add Button 
@@ -22,7 +17,6 @@ Scenario: Add A New Job
 	When User click on Log out link 
 	Then Logout Title should be "LOGIN Panel" 
 	And close browser
-=======
 Scenario Outline: Job Titles 
 	When Click on Work Shifts 
 	#Then Click on Add Button 
@@ -37,4 +31,3 @@ Scenario Outline: Job Titles
 		|Shift B|Emp B|08:00|16:00|
 		|Shift C|Emp C|16:00|23:45|
 	
->>>>>>> Stashed changes:HRMSystem/Features/Job-WorkShifts.feature
