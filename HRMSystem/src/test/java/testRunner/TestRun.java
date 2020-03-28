@@ -17,16 +17,12 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-<<<<<<< Updated upstream
-		// features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
-		features = ".//Features/Job.feature",
-=======
+
 // features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
 // features = ".//Features/Job.feature",
 //		 features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
 //		features = ".//Features/",
 		features = ".//Features/Job-WorkShifts.feature",
->>>>>>> Stashed changes
 
 		glue = "stepDefinitions", 
 		dryRun = true, 

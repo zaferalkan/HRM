@@ -16,6 +16,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import gherkin.ast.ScenarioOutline;
 import pageObjects.AddEmployeePage;
+import pageObjects.JobPageObjects;
 import pageObjects.LoginPage;
 import pageObjects.MainPage;
 import pageObjects.SearchCustomer;
@@ -100,35 +101,22 @@ public class steps extends BaseClass {
 		logger.info("*****clicked the welcome menu*****");
 
 		mp = new MainPage(driver);
-<<<<<<< Updated upstream
 		mp.clickWelcomeMenu();
-=======
 		mp.clickWel();
 //		jpo = new JobPageObjects(driver);
 //		jpo.clickWelcome();
 //		jpo.clickWelcomeES();
->>>>>>> Stashed changes
 
 	}
 
 	@When("^User click on Log out link$")
 	public void user_click_on_Log_out_link() throws InterruptedException {
 		logger.info("*****logout process started*****");
-<<<<<<< Updated upstream
 
 		mp = new MainPage(driver);
 		sc = new SearchCustomer(driver);
 		mp.clickLogot();
-=======
-		// ae = new AddEmployeePage(driver);
-		mp = new MainPage(driver);
-		// sc = new SearchCustomer(driver);
-		mp.clickLogot();
-		// jpo = new JobPageObjects(driver);
-//		jpo.clickLogOut();
-//		jpo.logOutES();
-		// ae.logOutEmpPage();
->>>>>>> Stashed changes
+
 
 	}
 
@@ -220,8 +208,7 @@ public class steps extends BaseClass {
 
 	}
 
-<<<<<<< Updated upstream
-=======
+
 	// Job Titles
 
 	@When("^Click on Job Titles$")
@@ -370,5 +357,4 @@ public class steps extends BaseClass {
 	    
 	}
 
->>>>>>> Stashed changes
 }
