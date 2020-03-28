@@ -28,7 +28,7 @@ import cucumber.api.junit.Cucumber;
 		dryRun = true, 
 		monochrome = true, 
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:" }
-		//tags = { "@sanity, @regression" }
+		//tags = { "@sanity" }
 
 )
 

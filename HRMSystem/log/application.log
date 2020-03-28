@@ -166,6 +166,7 @@
 2020-03-24 11:30:06,470 [main] INFO HRM System - *****clicked the welcome menu*****
 2020-03-24 11:30:06,922 [main] INFO HRM System - *****logout process started*****
 2020-03-24 11:30:08,553 [main] INFO HRM System - *****driver closed*****
+<<<<<<< HEAD
 2020-03-24 18:50:58,264 [main] INFO HRM System - *****Launching the browser*****
 2020-03-24 18:51:02,087 [main] INFO HRM System - *****entering credentials*****
 2020-03-24 18:51:02,907 [main] INFO HRM System - *****login process started*****
@@ -183,6 +184,8 @@
 <<<<<<< Updated upstream
 =======
 =======
+=======
+>>>>>>> 0c82f12f2265a8dff69419c36ce81a05b366dff7
 2020-03-24 12:45:47,743 [main] INFO HRM System - *****Launching the browser*****
 2020-03-24 12:45:51,018 [main] INFO HRM System - *****entering credentials*****
 2020-03-24 12:45:51,671 [main] INFO HRM System - *****login process started*****
@@ -351,6 +354,7 @@
 2020-03-25 10:31:23,193 [main] INFO HRM System - *****entering credentials*****
 2020-03-25 10:31:23,619 [main] INFO HRM System - *****login process started*****
 2020-03-25 10:31:28,613 [main] INFO HRM System - *****Go back to welcome menu*****
+<<<<<<< HEAD
 >>>>>>> branch 'master' of https://github.com/zaferalkan/HRM.git
 2020-03-25 10:52:30,636 [main] INFO HRM System - *****Launching the browser*****
 2020-03-25 10:52:34,630 [main] INFO HRM System - *****entering credentials*****
@@ -845,3 +849,5 @@
 2020-03-27 23:45:58,116 [main] INFO HRM System - *****clicked the welcome menu*****
 2020-03-27 23:45:58,246 [main] INFO HRM System - *****logout process started*****
 >>>>>>> Stashed changes
+=======
+>>>>>>> 0c82f12f2265a8dff69419c36ce81a05b366dff7
