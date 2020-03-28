@@ -17,16 +17,17 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
+// features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
+// features = ".//Features/Job.feature",
 //		 features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
 //		features = ".//Features/",
-				 features = ".//Features/AddEmployee.feature",
-
+		features = ".//Features/Job-JobCategories.feature",
 
 		glue = "stepDefinitions", 
 		dryRun = false, 
 		monochrome = true, 
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:" }
-		//tags = { "@sanity" }
+		//tags= {"@sanity"}
 
 )
 
@@ -41,8 +42,7 @@ public class TestRun {
 	@AfterClass
 	public static void writeExtentReport() {
 
-		// Reporter.loadXMLConfig(new
-		// File("C:\\Users\\acar5\\git\\HRM\\HRMSystem\\extent-config.xml"));
+		
 		Reporter.loadXMLConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
 		Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
 		Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));

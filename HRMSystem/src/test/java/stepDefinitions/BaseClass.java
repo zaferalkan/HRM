@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import pageObjects.AddEmployeePage;
+import pageObjects.JobPageObjects;
 import pageObjects.LoginPage;
 import pageObjects.MainPage;
 import pageObjects.SearchCustomer;
@@ -20,6 +21,7 @@ public class BaseClass {
 	public SearchCustomer sc;
 	public Logger logger;
 	public Properties configProp;
+	public JobPageObjects jpo;
 	
 
 	public static String randomString() {
