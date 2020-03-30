@@ -120,7 +120,6 @@ public class AddEmployeePage extends CommonMethods {
 	WebElement monthDdl1;
 
 	@FindBy(id = "welcome")
-	@CacheLookup
 	WebElement welcomeMenu;
 
 	@FindBy(className = "ui-datepicker-year")
@@ -259,7 +258,12 @@ public class AddEmployeePage extends CommonMethods {
 		
 	}
 
+	public void addEmployee(String fname,String lname) {
 		
+		enterFirstName.sendKeys(fname);
+		enterLastName.sendKeys(lname);
+		saveBtn.click();
+	}
 		
 		
 		

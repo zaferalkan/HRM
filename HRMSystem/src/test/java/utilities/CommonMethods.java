@@ -112,6 +112,10 @@ public class CommonMethods {
 //		action.moveToElement(element1).moveToElement(element2).moveToElement(element3).click().build().perform();
 //	}
 
+	public void mouseOverAction(WebElement element1, WebElement element2,WebElement element3, WebDriver driver) {
+		Actions action = new Actions(driver);
+		action.moveToElement(element1).moveToElement(element2).moveToElement(element3).click().build().perform();
+	}
 	public void searchResultControl(WebElement e, String expected) {
 		String a = e.getText();
 		System.out.println(a);
@@ -136,5 +140,10 @@ public class CommonMethods {
 
 		}
 		return flag;
+	}
+	
+	public void readExcel() {
+				
+		
 	}
 }

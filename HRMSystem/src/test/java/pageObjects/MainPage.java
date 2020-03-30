@@ -7,7 +7,9 @@ import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MainPage {
+import utilities.CommonMethods;
+
+public class MainPage extends CommonMethods{
 
 	public WebDriver driver;
 	LoginPage lg ;
@@ -19,12 +21,19 @@ public class MainPage {
 	
 	
 	@FindBy(id = "welcome")
-	@CacheLookup
 	WebElement welcomeMenu;
 
 	@FindBy(xpath = "//a[contains(text(),'Logout')]")
-	@CacheLookup
 	WebElement LogoutLink;
+	
+	@FindBy(xpath = "menu_admin_viewAdminModule")
+	WebElement AdminLink;
+	
+	@FindBy(xpath = "menu_admin_viewLocations")
+	WebElement organizationLink;
+	
+	@FindBy(xpath = "menu_admin_viewLocations")
+	WebElement locationLink;
 	
 	public void clickWelcomeMenu() {
 		String a=driver.getCurrentUrl();
@@ -55,6 +64,7 @@ public class MainPage {
 		Assert.assertEquals("Welcome Admin", actualTitle);
 	
 	}
+
 
 	
 }

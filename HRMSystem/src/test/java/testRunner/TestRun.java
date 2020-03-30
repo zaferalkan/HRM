@@ -21,7 +21,9 @@ import cucumber.api.junit.Cucumber;
 // features = ".//Features/Job.feature",
 //		 features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
 //		features = ".//Features/",
-		features = ".//Features/Job-JobCategories.feature",
+				 features = ".//Features/organization.feature",
+
+		//features = ".//Features/Job-JobCategories.feature",
 
 		glue = "stepDefinitions", 
 		dryRun = false, 
