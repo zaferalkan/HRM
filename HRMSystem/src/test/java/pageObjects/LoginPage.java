@@ -28,8 +28,6 @@ public class LoginPage {
 	@CacheLookup
 	WebElement btnLogin;
 
-	
-	
 	//Title
 	@FindBy(xpath = "//h1[contains(text(),'Dashboard')]")
 	@CacheLookup

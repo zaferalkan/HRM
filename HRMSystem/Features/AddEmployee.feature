@@ -21,5 +21,5 @@ Scenario: Search Customer By Name
 	Then Enter employee name and click search 
 	And Click on Welcome search 
 	When User click on Log out link 
-	Then Logout Title should be "LOGIN Panel" 
-	And close browser
+	#Then Logout Title should be "LOGIN Panel" 
+	#And close browser
