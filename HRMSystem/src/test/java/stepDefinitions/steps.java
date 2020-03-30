@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import static org.junit.Assert.assertArrayEquals;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -14,17 +16,20 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import junit.framework.Assert;
 import pageObjects.AddEmployeePage;
+import pageObjects.LocationPage;
 import pageObjects.LoginPage;
 import pageObjects.MainPage;
 import pageObjects.SearchCustomer;
+import pageObjects.UserPage;
 
 public class steps extends BaseClass {
 
 	@Before
 	public void setup() throws IOException {
 
-		//logger configuration
+		// logger configuration
 		logger = Logger.getLogger("HRM System");
 		PropertyConfigurator.configure("log4j.properties");
 
@@ -168,7 +173,7 @@ public class steps extends BaseClass {
 		logger.info("*****Go back to welcome menu*****");
 
 		mp = new MainPage(driver);
-		ae.clickMenu();
+		mp.clickWel();
 	}
 
 	@Then("^Click on Welcome search$")
@@ -201,54 +206,105 @@ public class steps extends BaseClass {
 
 	}
 
-@Then("^Click on Users Link$")
-public void click_on_Users_Link() throws Throwable {
+	@Then("^Add Employee  firstname as \"([^\"]*)\" and lastname as \"([^\"]*)\" and click save$")
+	public void add_Employee_firstname_as_and_lastname_as_and_click_save(String firstname, String lastname)
+			throws Throwable {
+		Thread.sleep(2000);
+		ae = new AddEmployeePage(driver);
 
-}
+		ae.addEmployee(firstname, lastname);
+	}
 
-@Then("^Click Add button$")
-public void click_Add_button() throws Throwable {
+	@When("^Click on Users$")
+	public void click_on_Users() throws Throwable {
+		Thread.sleep(2000);
+		ae = new AddEmployeePage(driver);
 
-}
+		up = new UserPage(driver);
+		up.clickUsersLink();
 
-@Then("^Enter Add User details and save$")
-public void enter_Add_User_details_and_save() throws Throwable {
- 
-}
+	}
 
-@When("^Enter Username$")
-public void enter_Username() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-}
+	@When("^Click Add button$")
+	public void click_Add_button() throws Throwable {
 
-@When("^Click on Search Button$")
-public void click_on_Search_Button() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-}
+		up.clickAddBtn();
+	}
 
-@Then("^Click on search result$")
-public void click_on_search_result() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-}
+	@When("^Enter Add User details employeename as \"([^\"]*)\" username as \"([^\"]*)\" and password \"([^\"]*)\" and as ConfirmPassword \"([^\"]*)\" and save$")
+	public void enter_Add_User_details_employeename_as_username_as_and_password_and_as_ConfirmPassword_and_save(
+			String empName, String Username, String pass, String conpass) throws Throwable {
+		up = new UserPage(driver);
+		Thread.sleep(2000);
+		up.selectUserRole();
+		up.enterEmpName(empName);
+		up.enterUserName(Username);
+		up.passwordEntry(pass, conpass);
+		up.clickSave();
 
-@Then("^Click on Edit Button$")
-public void click_on_Edit_Button() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-}
+	}
 
-@Then("^Check on Change Password$")
-public void check_on_Change_Password() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-}
+	@When("^Check User list with username as \"([^\"]*)\"$")
+	public void check_User_list_with_username_as(String username) throws Throwable {
 
-@Then("^Enter Password and Confirm Password$")
-public void enter_Password_and_Confirm_Password() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-}
+		boolean check = up.checkUserwithUname(username);
+		boolean expected = true;
+		Assert.assertEquals(expected, check);
+	}
 
-@Then("^Save Button$")
-public void save_Button() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-}
+	@Then("^Click on search result username as \"([^\"]*)\"$")
+	public void click_on_search_result_username_as(String uname) throws Throwable {
+		up = new UserPage(driver);
+		Thread.sleep(2000);
 
+		System.out.println(uname);
+		up.checkresultwithUnameandClick(uname);
+	}
+
+	@Then("^Click on Edit Button$")
+	public void click_on_Edit_Button() throws Throwable {
+		up = new UserPage(driver);
+		up.clickEditBtn();
+	}
+
+	@Then("^Check on Change Password$")
+	public void check_on_Change_Password() throws Throwable {
+
+		up.checkChangePass();
+	}
+
+	@Then("^Enter Password and Confirm Password as \"([^\"]*)\" and Save$")
+	public void enter_Password_and_Confirm_Password_as_and_Save(String password) throws Throwable {
+
+		up.passwordEntry(password, "Asd123234%!sd");
+		Thread.sleep(2000);
+		up.checkPasswordMessage();
+		up.passwordEntry(password, password);
+		Thread.sleep(2000);
+		up.clickSave();
+		Thread.sleep(2000);
+
+	}
+
+	@When("^Click on Locations Link$")
+	public void click_on_Locations_Link() throws Throwable {
+		Thread.sleep(2000);
+
+		logger.info("*****Click Organization Link*****");
+
+		lop = new LocationPage(driver);
+		lop.clickOrganizationLink();
+	}
+
+	@When("^Add Locations$")
+	public void add_Locations() throws Throwable {
+		lop.addLocationFromExcel();
+	}
+
+	@When("^Check Location List$")
+	public void check_Location_List() throws Throwable {
+
+		lop.verifyLocationResults();
+		Thread.sleep(500);
+	}
 }

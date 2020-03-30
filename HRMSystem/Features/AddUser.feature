@@ -6,12 +6,13 @@ Background: Login steps for All scenarios
 	And User enters UserName as "Admin" and Password as "Hum@nhrm123" 
 	And Click on Login 
 	
-	Scenario: Add User 
+Scenario: Add User 
 	When Click on Add Employee 
-	Then Enter employee details and click save 
-	And Click on Users Link
-	And Click Add button
-	And Enter Add User details and save
+	Then Add Employee  firstname as "psaur" and lastname as "nouaw" and click save 
+	When Click on Users 
+	And Click Add button 
+	And Enter Add User details employeename as "psaur nouaw" username as "psaumar" and password "Hum@nhrm123" and as ConfirmPassword "Hum@nhrm123" and save 
+	And Check User list with username as "psaumar" 
 	And Click on Welcome 
 	When User click on Log out link 
 	Then Logout Title should be "LOGIN Panel" 

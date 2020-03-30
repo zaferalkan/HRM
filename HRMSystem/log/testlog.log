@@ -334,3 +334,570 @@
 2020-03-25 10:31:23,193 - HRM System -INFO - *****entering credentials*****
 2020-03-25 10:31:23,619 - HRM System -INFO - *****login process started*****
 2020-03-25 10:31:28,613 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 12:05:07,545 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 12:05:10,410 - HRM System -INFO - *****entering credentials*****
+2020-03-25 12:05:10,895 - HRM System -INFO - *****login process started*****
+2020-03-25 12:05:15,899 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 12:05:17,081 - HRM System -INFO - *****Employee added and saved to database with credentials*****
+2020-03-25 12:05:39,745 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:26:42,641 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:26:45,386 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:26:45,651 - HRM System -INFO - *****login process started*****
+2020-03-25 15:26:50,605 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 15:29:11,670 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:29:14,355 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:29:14,668 - HRM System -INFO - *****login process started*****
+2020-03-25 15:29:19,767 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 15:30:41,889 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:30:44,616 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:30:44,947 - HRM System -INFO - *****login process started*****
+2020-03-25 15:30:49,798 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 15:32:10,232 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:32:12,961 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:32:13,228 - HRM System -INFO - *****login process started*****
+2020-03-25 15:32:18,672 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 15:33:33,543 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:33:37,268 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:33:37,519 - HRM System -INFO - *****login process started*****
+2020-03-25 15:33:42,564 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 15:34:31,513 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:34:34,213 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:34:34,466 - HRM System -INFO - *****login process started*****
+2020-03-25 15:34:39,431 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 15:34:48,909 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 15:34:48,998 - HRM System -INFO - *****logout process started*****
+2020-03-25 15:34:49,610 - HRM System -INFO - *****driver closed*****
+2020-03-25 15:35:37,283 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:35:39,892 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:35:40,155 - HRM System -INFO - *****login process started*****
+2020-03-25 15:35:45,006 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 15:36:45,079 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 15:36:48,800 - HRM System -INFO - *****entering credentials*****
+2020-03-25 15:36:49,050 - HRM System -INFO - *****login process started*****
+2020-03-25 15:36:54,148 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:00:32,604 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:00:35,248 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:00:35,560 - HRM System -INFO - *****login process started*****
+2020-03-25 16:00:40,530 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:01:17,942 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:01:20,589 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:01:20,849 - HRM System -INFO - *****login process started*****
+2020-03-25 16:01:25,767 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:01:35,151 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 16:01:35,226 - HRM System -INFO - *****logout process started*****
+2020-03-25 16:01:35,863 - HRM System -INFO - *****driver closed*****
+2020-03-25 16:27:43,919 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:27:46,519 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:27:46,776 - HRM System -INFO - *****login process started*****
+2020-03-25 16:27:51,733 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:30:13,605 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:30:16,342 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:30:16,646 - HRM System -INFO - *****login process started*****
+2020-03-25 16:30:21,595 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:33:35,919 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:33:38,737 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:33:39,070 - HRM System -INFO - *****login process started*****
+2020-03-25 16:33:43,987 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:33:56,465 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 16:33:56,583 - HRM System -INFO - *****logout process started*****
+2020-03-25 16:33:57,703 - HRM System -INFO - *****driver closed*****
+2020-03-25 16:34:42,870 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:34:45,491 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:34:45,765 - HRM System -INFO - *****login process started*****
+2020-03-25 16:34:50,931 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:35:07,536 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 16:35:07,636 - HRM System -INFO - *****logout process started*****
+2020-03-25 16:35:08,419 - HRM System -INFO - *****driver closed*****
+2020-03-25 16:37:42,382 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:37:45,135 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:37:45,410 - HRM System -INFO - *****login process started*****
+2020-03-25 16:37:50,701 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:39:08,843 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:39:11,828 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:39:12,091 - HRM System -INFO - *****login process started*****
+2020-03-25 16:39:17,097 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:41:51,207 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:41:54,090 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:41:54,390 - HRM System -INFO - *****login process started*****
+2020-03-25 16:41:59,426 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:42:17,954 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 16:42:18,047 - HRM System -INFO - *****logout process started*****
+2020-03-25 16:42:18,720 - HRM System -INFO - *****driver closed*****
+2020-03-25 16:43:00,207 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:43:02,929 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:43:03,254 - HRM System -INFO - *****login process started*****
+2020-03-25 16:43:08,127 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:43:31,140 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 16:43:31,242 - HRM System -INFO - *****logout process started*****
+2020-03-25 16:43:31,964 - HRM System -INFO - *****driver closed*****
+2020-03-25 16:44:43,154 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 16:44:46,473 - HRM System -INFO - *****entering credentials*****
+2020-03-25 16:44:46,707 - HRM System -INFO - *****login process started*****
+2020-03-25 16:44:51,747 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 16:45:14,517 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 16:45:14,607 - HRM System -INFO - *****logout process started*****
+2020-03-25 16:45:15,836 - HRM System -INFO - *****driver closed*****
+2020-03-25 20:34:30,288 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 20:34:33,910 - HRM System -INFO - *****entering credentials*****
+2020-03-25 20:34:34,226 - HRM System -INFO - *****login process started*****
+2020-03-25 20:34:39,352 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 20:35:01,440 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 20:35:01,626 - HRM System -INFO - *****logout process started*****
+2020-03-25 20:35:02,436 - HRM System -INFO - *****driver closed*****
+2020-03-25 21:07:56,518 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:07:59,377 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:07:59,683 - HRM System -INFO - *****login process started*****
+2020-03-25 21:08:04,751 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:10:51,027 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:10:53,787 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:10:54,109 - HRM System -INFO - *****login process started*****
+2020-03-25 21:10:59,056 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:11:57,678 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:12:00,568 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:12:00,874 - HRM System -INFO - *****login process started*****
+2020-03-25 21:12:05,884 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:14:20,062 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:14:24,192 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:14:24,446 - HRM System -INFO - *****login process started*****
+2020-03-25 21:14:29,529 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:15:00,581 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:15:03,861 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:15:04,213 - HRM System -INFO - *****login process started*****
+2020-03-25 21:15:09,369 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:18:19,977 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:18:22,898 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:18:23,170 - HRM System -INFO - *****login process started*****
+2020-03-25 21:18:28,197 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:21:30,333 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:21:33,172 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:21:33,490 - HRM System -INFO - *****login process started*****
+2020-03-25 21:21:38,446 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:22:00,243 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:22:03,232 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:22:03,548 - HRM System -INFO - *****login process started*****
+2020-03-25 21:22:08,742 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:22:32,577 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 21:22:32,706 - HRM System -INFO - *****logout process started*****
+2020-03-25 21:22:33,403 - HRM System -INFO - *****driver closed*****
+2020-03-25 21:24:34,112 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 21:24:38,161 - HRM System -INFO - *****entering credentials*****
+2020-03-25 21:24:38,495 - HRM System -INFO - *****login process started*****
+2020-03-25 21:24:43,552 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 21:25:07,223 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 21:25:07,431 - HRM System -INFO - *****logout process started*****
+2020-03-25 21:25:08,208 - HRM System -INFO - *****driver closed*****
+2020-03-25 22:11:21,374 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 22:11:23,958 - HRM System -INFO - *****entering credentials*****
+2020-03-25 22:11:24,292 - HRM System -INFO - *****login process started*****
+2020-03-25 22:11:29,730 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 22:14:06,494 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 22:14:10,395 - HRM System -INFO - *****entering credentials*****
+2020-03-25 22:14:10,675 - HRM System -INFO - *****login process started*****
+2020-03-25 22:14:15,689 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 22:14:43,989 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 22:14:44,133 - HRM System -INFO - *****logout process started*****
+2020-03-25 22:14:44,809 - HRM System -INFO - *****driver closed*****
+2020-03-25 22:16:20,645 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 22:16:23,563 - HRM System -INFO - *****entering credentials*****
+2020-03-25 22:16:23,861 - HRM System -INFO - *****login process started*****
+2020-03-25 22:16:29,024 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 22:17:21,166 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 22:17:23,900 - HRM System -INFO - *****entering credentials*****
+2020-03-25 22:17:24,273 - HRM System -INFO - *****login process started*****
+2020-03-25 22:17:29,175 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 22:19:02,523 - HRM System -INFO - *****Launching the browser*****
+2020-03-25 22:19:05,466 - HRM System -INFO - *****entering credentials*****
+2020-03-25 22:19:05,792 - HRM System -INFO - *****login process started*****
+2020-03-25 22:19:10,788 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-25 22:19:34,464 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-25 22:19:34,556 - HRM System -INFO - *****logout process started*****
+2020-03-25 22:19:35,300 - HRM System -INFO - *****driver closed*****
+2020-03-26 07:15:46,276 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 07:15:49,585 - HRM System -INFO - *****entering credentials*****
+2020-03-26 07:15:49,862 - HRM System -INFO - *****login process started*****
+2020-03-26 07:15:55,150 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 07:18:53,492 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 07:18:57,025 - HRM System -INFO - *****entering credentials*****
+2020-03-26 07:18:57,332 - HRM System -INFO - *****login process started*****
+2020-03-26 07:19:03,071 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 07:20:17,260 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 07:20:20,139 - HRM System -INFO - *****entering credentials*****
+2020-03-26 07:20:20,465 - HRM System -INFO - *****login process started*****
+2020-03-26 07:20:25,369 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 07:20:53,610 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-26 07:20:53,766 - HRM System -INFO - *****logout process started*****
+2020-03-26 07:20:54,493 - HRM System -INFO - *****driver closed*****
+2020-03-26 07:21:10,440 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 07:21:13,022 - HRM System -INFO - *****entering credentials*****
+2020-03-26 07:21:13,344 - HRM System -INFO - *****login process started*****
+2020-03-26 07:21:18,400 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 07:53:05,470 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 07:53:09,235 - HRM System -INFO - *****entering credentials*****
+2020-03-26 07:53:09,517 - HRM System -INFO - *****login process started*****
+2020-03-26 07:53:14,524 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 07:58:08,470 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 07:58:11,403 - HRM System -INFO - *****entering credentials*****
+2020-03-26 07:58:11,788 - HRM System -INFO - *****login process started*****
+2020-03-26 07:58:16,643 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 09:01:18,664 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 09:01:22,629 - HRM System -INFO - *****entering credentials*****
+2020-03-26 09:01:22,917 - HRM System -INFO - *****login process started*****
+2020-03-26 09:01:27,884 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 12:26:19,643 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 12:26:22,348 - HRM System -INFO - *****entering credentials*****
+2020-03-26 12:26:22,771 - HRM System -INFO - *****login process started*****
+2020-03-26 12:26:28,095 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 22:23:24,726 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 22:23:27,632 - HRM System -INFO - *****entering credentials*****
+2020-03-26 22:23:27,917 - HRM System -INFO - *****login process started*****
+2020-03-26 22:23:32,882 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 22:23:55,409 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-26 22:23:55,510 - HRM System -INFO - *****logout process started*****
+2020-03-26 22:23:56,241 - HRM System -INFO - *****driver closed*****
+2020-03-26 22:24:19,706 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 22:24:22,888 - HRM System -INFO - *****entering credentials*****
+2020-03-26 22:24:23,152 - HRM System -INFO - *****login process started*****
+2020-03-26 22:24:28,163 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 22:24:56,781 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-26 22:24:56,921 - HRM System -INFO - *****logout process started*****
+2020-03-26 22:24:57,614 - HRM System -INFO - *****driver closed*****
+2020-03-26 22:35:40,305 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 22:35:43,012 - HRM System -INFO - *****entering credentials*****
+2020-03-26 22:35:43,318 - HRM System -INFO - *****login process started*****
+2020-03-26 22:35:48,191 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 22:36:19,417 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-26 22:36:19,536 - HRM System -INFO - *****logout process started*****
+2020-03-26 22:36:20,193 - HRM System -INFO - *****driver closed*****
+2020-03-26 22:54:24,324 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 22:54:27,536 - HRM System -INFO - *****entering credentials*****
+2020-03-26 22:54:27,859 - HRM System -INFO - *****login process started*****
+2020-03-26 22:54:32,875 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-26 22:55:02,802 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-26 22:55:02,932 - HRM System -INFO - *****logout process started*****
+2020-03-26 22:55:03,749 - HRM System -INFO - *****driver closed*****
+2020-03-26 23:31:59,686 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 23:32:02,619 - HRM System -INFO - *****entering credentials*****
+2020-03-26 23:32:02,905 - HRM System -INFO - *****login process started*****
+2020-03-26 23:33:47,357 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 23:33:50,003 - HRM System -INFO - *****entering credentials*****
+2020-03-26 23:33:50,326 - HRM System -INFO - *****login process started*****
+2020-03-26 23:42:32,399 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 23:42:35,346 - HRM System -INFO - *****entering credentials*****
+2020-03-26 23:42:35,647 - HRM System -INFO - *****login process started*****
+2020-03-26 23:43:08,465 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-26 23:43:08,723 - HRM System -INFO - *****logout process started*****
+2020-03-26 23:43:09,536 - HRM System -INFO - *****driver closed*****
+2020-03-26 23:46:24,302 - HRM System -INFO - *****Launching the browser*****
+2020-03-26 23:46:27,105 - HRM System -INFO - *****entering credentials*****
+2020-03-26 23:46:27,416 - HRM System -INFO - *****login process started*****
+2020-03-26 23:47:00,858 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-26 23:47:01,054 - HRM System -INFO - *****logout process started*****
+2020-03-26 23:47:01,275 - HRM System -INFO - *****driver closed*****
+2020-03-27 00:54:34,646 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 00:54:37,685 - HRM System -INFO - *****entering credentials*****
+2020-03-27 00:54:38,359 - HRM System -INFO - *****login process started*****
+2020-03-27 00:54:43,390 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 00:58:18,134 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 00:58:20,958 - HRM System -INFO - *****entering credentials*****
+2020-03-27 00:58:21,319 - HRM System -INFO - *****login process started*****
+2020-03-27 00:58:26,372 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 01:02:00,636 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 01:02:03,492 - HRM System -INFO - *****entering credentials*****
+2020-03-27 01:02:03,916 - HRM System -INFO - *****login process started*****
+2020-03-27 01:02:09,137 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 01:02:39,427 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-27 01:02:39,568 - HRM System -INFO - *****logout process started*****
+2020-03-27 01:02:40,330 - HRM System -INFO - *****driver closed*****
+2020-03-27 01:27:56,150 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 01:27:59,062 - HRM System -INFO - *****entering credentials*****
+2020-03-27 01:27:59,478 - HRM System -INFO - *****login process started*****
+2020-03-27 01:28:04,810 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 01:28:36,661 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-27 01:28:36,759 - HRM System -INFO - *****logout process started*****
+2020-03-27 01:28:37,548 - HRM System -INFO - *****driver closed*****
+2020-03-27 01:30:03,561 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 01:30:06,594 - HRM System -INFO - *****entering credentials*****
+2020-03-27 01:30:07,123 - HRM System -INFO - *****login process started*****
+2020-03-27 01:30:12,124 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 01:30:47,654 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-27 01:30:47,815 - HRM System -INFO - *****logout process started*****
+2020-03-27 01:30:48,676 - HRM System -INFO - *****driver closed*****
+2020-03-27 09:32:09,720 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 09:32:14,420 - HRM System -INFO - *****entering credentials*****
+2020-03-27 09:32:32,943 - HRM System -INFO - *****login process started*****
+2020-03-27 09:32:49,590 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:06:08,678 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:06:12,841 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:06:13,129 - HRM System -INFO - *****login process started*****
+2020-03-27 11:06:18,151 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:09:30,725 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:09:33,697 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:09:33,972 - HRM System -INFO - *****login process started*****
+2020-03-27 11:09:39,355 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:11:04,832 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:11:07,481 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:11:07,814 - HRM System -INFO - *****login process started*****
+2020-03-27 11:11:13,065 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:12:43,227 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:12:46,030 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:12:46,339 - HRM System -INFO - *****login process started*****
+2020-03-27 11:12:51,655 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:14:33,536 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:14:37,102 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:14:37,377 - HRM System -INFO - *****login process started*****
+2020-03-27 11:14:42,423 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:20:17,985 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:20:21,242 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:20:21,554 - HRM System -INFO - *****login process started*****
+2020-03-27 11:20:26,697 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:23:16,279 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:23:19,115 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:23:19,543 - HRM System -INFO - *****login process started*****
+2020-03-27 11:23:24,953 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:24:01,012 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-27 11:24:01,181 - HRM System -INFO - *****logout process started*****
+2020-03-27 11:24:02,063 - HRM System -INFO - *****driver closed*****
+2020-03-27 11:24:56,713 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:25:00,255 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:25:00,514 - HRM System -INFO - *****login process started*****
+2020-03-27 11:25:05,717 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:32:35,685 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:32:38,562 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:32:38,846 - HRM System -INFO - *****login process started*****
+2020-03-27 11:32:43,827 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:34:31,427 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:34:34,985 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:34:35,257 - HRM System -INFO - *****login process started*****
+2020-03-27 11:34:40,227 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:35:12,832 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:35:16,495 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:35:16,762 - HRM System -INFO - *****login process started*****
+2020-03-27 11:35:21,785 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:35:57,878 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-27 11:35:58,011 - HRM System -INFO - *****logout process started*****
+2020-03-27 11:35:58,790 - HRM System -INFO - *****driver closed*****
+2020-03-27 11:37:21,373 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:37:24,139 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:37:24,486 - HRM System -INFO - *****login process started*****
+2020-03-27 11:37:29,434 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:40:07,617 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:40:10,339 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:40:10,656 - HRM System -INFO - *****login process started*****
+2020-03-27 11:40:15,728 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-27 11:42:00,738 - HRM System -INFO - *****Launching the browser*****
+2020-03-27 11:42:03,592 - HRM System -INFO - *****entering credentials*****
+2020-03-27 11:42:03,956 - HRM System -INFO - *****login process started*****
+2020-03-27 11:42:08,855 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-28 11:44:29,760 - HRM System -INFO - *****Launching the browser*****
+2020-03-28 11:44:32,645 - HRM System -INFO - *****entering credentials*****
+2020-03-28 11:44:32,997 - HRM System -INFO - *****login process started*****
+2020-03-28 11:44:39,106 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-28 12:13:10,260 - HRM System -INFO - *****Launching the browser*****
+2020-03-28 12:13:13,150 - HRM System -INFO - *****entering credentials*****
+2020-03-28 12:13:13,501 - HRM System -INFO - *****login process started*****
+2020-03-28 12:13:18,507 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-28 12:14:21,352 - HRM System -INFO - *****Launching the browser*****
+2020-03-28 12:14:25,747 - HRM System -INFO - *****entering credentials*****
+2020-03-28 12:14:26,011 - HRM System -INFO - *****login process started*****
+2020-03-28 12:14:31,037 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-28 12:15:01,146 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-28 12:15:01,273 - HRM System -INFO - *****logout process started*****
+2020-03-28 12:15:01,952 - HRM System -INFO - *****driver closed*****
+2020-03-29 11:43:08,506 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 11:43:15,260 - HRM System -INFO - *****entering credentials*****
+2020-03-29 11:43:35,735 - HRM System -INFO - *****login process started*****
+2020-03-29 11:43:41,982 - HRM System -INFO - *****navigate to employee adding page*****
+2020-03-29 13:13:55,297 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:13:57,956 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:13:58,245 - HRM System -INFO - *****login process started*****
+2020-03-29 13:14:03,208 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:21:30,752 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:21:33,793 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:21:34,066 - HRM System -INFO - *****login process started*****
+2020-03-29 13:21:40,913 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:23:38,363 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:23:42,181 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:23:42,434 - HRM System -INFO - *****login process started*****
+2020-03-29 13:23:49,347 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:25:31,552 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:25:34,344 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:25:34,671 - HRM System -INFO - *****login process started*****
+2020-03-29 13:25:41,568 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:30:44,506 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:30:47,360 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:30:47,639 - HRM System -INFO - *****login process started*****
+2020-03-29 13:30:55,208 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:34:02,175 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:34:05,684 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:34:05,946 - HRM System -INFO - *****login process started*****
+2020-03-29 13:34:13,500 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:36:57,160 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:36:59,903 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:37:00,231 - HRM System -INFO - *****login process started*****
+2020-03-29 13:37:07,092 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:39:08,411 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:39:11,245 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:39:11,797 - HRM System -INFO - *****login process started*****
+2020-03-29 13:39:18,718 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:40:32,638 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:40:35,571 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:40:36,205 - HRM System -INFO - *****login process started*****
+2020-03-29 13:40:43,268 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:41:42,363 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:41:45,131 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:41:45,525 - HRM System -INFO - *****login process started*****
+2020-03-29 13:41:52,530 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:43:32,544 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:43:35,141 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:43:35,452 - HRM System -INFO - *****login process started*****
+2020-03-29 13:43:42,318 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:45:10,760 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:45:13,645 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:45:13,980 - HRM System -INFO - *****login process started*****
+2020-03-29 13:45:21,357 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:48:10,899 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:48:20,603 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:48:20,896 - HRM System -INFO - *****login process started*****
+2020-03-29 13:48:27,888 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:49:09,025 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:49:11,597 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:49:11,857 - HRM System -INFO - *****login process started*****
+2020-03-29 13:49:19,061 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:50:12,861 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:50:15,555 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:50:15,828 - HRM System -INFO - *****login process started*****
+2020-03-29 13:50:22,655 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:50:49,900 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:50:53,331 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:50:53,566 - HRM System -INFO - *****login process started*****
+2020-03-29 13:51:00,663 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:51:48,912 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:51:51,743 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:51:52,021 - HRM System -INFO - *****login process started*****
+2020-03-29 13:51:58,916 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:56:36,705 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:56:39,913 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:56:40,145 - HRM System -INFO - *****login process started*****
+2020-03-29 13:56:47,174 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:59:17,751 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:59:20,400 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:59:20,708 - HRM System -INFO - *****login process started*****
+2020-03-29 13:59:27,575 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 13:59:44,158 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 13:59:47,634 - HRM System -INFO - *****entering credentials*****
+2020-03-29 13:59:47,987 - HRM System -INFO - *****login process started*****
+2020-03-29 13:59:55,182 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:03:15,916 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:03:18,741 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:03:18,997 - HRM System -INFO - *****login process started*****
+2020-03-29 14:03:25,905 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:04:02,914 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:04:05,545 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:04:05,783 - HRM System -INFO - *****login process started*****
+2020-03-29 14:04:12,614 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:06:58,616 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:07:01,368 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:07:01,736 - HRM System -INFO - *****login process started*****
+2020-03-29 14:07:09,224 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:10:11,855 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:10:14,552 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:10:14,795 - HRM System -INFO - *****login process started*****
+2020-03-29 14:10:21,923 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:18:48,936 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:18:52,320 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:18:52,555 - HRM System -INFO - *****login process started*****
+2020-03-29 14:19:00,019 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:22:22,092 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:22:24,748 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:22:25,022 - HRM System -INFO - *****login process started*****
+2020-03-29 14:22:31,916 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:24:02,914 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:24:05,538 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:24:05,840 - HRM System -INFO - *****login process started*****
+2020-03-29 14:24:12,924 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:26:50,242 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:26:53,159 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:26:53,445 - HRM System -INFO - *****login process started*****
+2020-03-29 14:27:00,297 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:28:01,544 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 14:29:37,369 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:29:40,031 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:29:40,283 - HRM System -INFO - *****login process started*****
+2020-03-29 14:29:47,143 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:30:25,284 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 14:36:59,499 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:37:02,191 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:37:02,466 - HRM System -INFO - *****login process started*****
+2020-03-29 14:37:09,358 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:37:30,793 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 14:39:48,574 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 14:39:51,263 - HRM System -INFO - *****entering credentials*****
+2020-03-29 14:39:51,567 - HRM System -INFO - *****login process started*****
+2020-03-29 14:39:58,583 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 14:40:19,839 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 14:40:19,967 - HRM System -INFO - *****logout process started*****
+2020-03-29 14:40:20,737 - HRM System -INFO - *****driver closed*****
+2020-03-29 15:45:20,777 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 15:45:24,268 - HRM System -INFO - *****entering credentials*****
+2020-03-29 15:45:25,327 - HRM System -INFO - *****login process started*****
+2020-03-29 15:45:32,457 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 15:46:17,050 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 15:46:17,172 - HRM System -INFO - *****logout process started*****
+2020-03-29 15:46:17,980 - HRM System -INFO - *****driver closed*****
+2020-03-29 17:49:41,911 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 17:49:44,866 - HRM System -INFO - *****entering credentials*****
+2020-03-29 17:49:45,275 - HRM System -INFO - *****login process started*****
+2020-03-29 17:49:52,304 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 17:50:45,699 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 17:50:48,637 - HRM System -INFO - *****entering credentials*****
+2020-03-29 17:50:49,045 - HRM System -INFO - *****login process started*****
+2020-03-29 17:50:55,974 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 17:51:26,528 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 17:51:26,635 - HRM System -INFO - *****logout process started*****
+2020-03-29 17:51:27,430 - HRM System -INFO - *****driver closed*****
+2020-03-29 19:39:31,704 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 19:39:34,647 - HRM System -INFO - *****entering credentials*****
+2020-03-29 19:39:34,946 - HRM System -INFO - *****login process started*****
+2020-03-29 19:39:42,276 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 19:40:10,468 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 19:40:10,715 - HRM System -INFO - *****logout process started*****
+2020-03-29 19:40:11,477 - HRM System -INFO - *****driver closed*****
+2020-03-29 19:43:08,315 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 19:43:11,475 - HRM System -INFO - *****entering credentials*****
+2020-03-29 19:43:11,807 - HRM System -INFO - *****login process started*****
+2020-03-29 19:43:19,442 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 19:43:48,498 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 19:43:48,682 - HRM System -INFO - *****logout process started*****
+2020-03-29 19:43:49,430 - HRM System -INFO - *****driver closed*****
+2020-03-29 19:47:05,032 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 19:47:08,892 - HRM System -INFO - *****entering credentials*****
+2020-03-29 19:47:09,209 - HRM System -INFO - *****login process started*****
+2020-03-29 19:47:16,734 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 19:47:44,517 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 19:47:44,646 - HRM System -INFO - *****logout process started*****
+2020-03-29 19:47:45,394 - HRM System -INFO - *****driver closed*****
+2020-03-29 19:49:21,152 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 19:49:24,114 - HRM System -INFO - *****entering credentials*****
+2020-03-29 19:49:24,379 - HRM System -INFO - *****login process started*****
+2020-03-29 19:49:31,380 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 19:50:02,075 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 19:50:02,234 - HRM System -INFO - *****logout process started*****
+2020-03-29 19:50:02,988 - HRM System -INFO - *****driver closed*****
+2020-03-29 19:55:05,159 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 19:55:08,605 - HRM System -INFO - *****entering credentials*****
+2020-03-29 19:55:08,866 - HRM System -INFO - *****login process started*****
+2020-03-29 19:55:16,261 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 19:55:51,010 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 19:55:51,233 - HRM System -INFO - *****logout process started*****
+2020-03-29 19:55:52,057 - HRM System -INFO - *****driver closed*****
+2020-03-29 20:00:02,317 - HRM System -INFO - *****Launching the browser*****
+2020-03-29 20:00:05,308 - HRM System -INFO - *****entering credentials*****
+2020-03-29 20:00:05,610 - HRM System -INFO - *****login process started*****
+2020-03-29 20:00:12,570 - HRM System -INFO - *****Click Organization Link*****
+2020-03-29 20:00:39,983 - HRM System -INFO - *****Go back to welcome menu*****
+2020-03-29 20:00:40,089 - HRM System -INFO - *****logout process started*****
+2020-03-29 20:00:40,729 - HRM System -INFO - *****driver closed*****
+2020-03-30 09:00:59,769 - HRM System -INFO - *****Launching the browser*****
+2020-03-30 09:01:10,624 - HRM System -INFO - *****entering credentials*****
+2020-03-30 09:01:34,281 - HRM System -INFO - *****login process started*****
+2020-03-30 09:01:41,917 - HRM System -INFO - *****Click Organization Link*****

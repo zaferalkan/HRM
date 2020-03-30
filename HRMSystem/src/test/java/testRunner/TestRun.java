@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 
 //		 features = {".//Features/AddEmployee.feature",".//Features/Login.feature"},
 //		features = ".//Features/",
-				 features = ".//Features/AddEmployee.feature",
+				 features = ".//Features/organization.feature",
 
 
 		glue = "stepDefinitions", 
